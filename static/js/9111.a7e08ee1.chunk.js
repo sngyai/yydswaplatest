@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunk_uniswap_interface=self.webpackChunk_uniswap_interface||[]).push([[9111],{49111:function(n,e,i){i.d(e,{B:function(){return a}});var u=i(48141),t=i(58025);function a(n){if(n.isNative)return n;const e=(0,u.oG)(n.chainId);return e&&t.Fl[e]?.equals(n)?(0,t.gX)(n.chainId):n}}}]);
+//# sourceMappingURL=9111.a7e08ee1.chunk.js.map

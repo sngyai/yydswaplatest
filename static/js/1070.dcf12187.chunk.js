@@ -1,0 +1,94 @@
+"use strict";(self.webpackChunk_uniswap_interface=self.webpackChunk_uniswap_interface||[]).push([[1070],{71607:function(e,n,i){i.d(n,{Z:function(){return _}});var t=i(42893),r=i(12204),d=i(80815),s=i(60198),c=i(42246),o=i(60476),a=i(56823),l=i(79371),C=i(2304),u=i(13712),p=i(87253),g=i(39839),N=i(437),x=i(15627),R=i(34120);const h=p.default.div.withConfig({displayName:"UnsupportedCurrencyFooter__DetailsFooter",componentId:"sc-b083a83b-0"})`
+  padding-top: calc(16px + 2rem);
+  padding-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -2rem;
+  width: 100%;
+  max-width: 400px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  color: ${({theme:e})=>e.neutral2};
+  background-color: ${({theme:e})=>e.surface2};
+  z-index: ${N.k.deprecated_zero};
+
+  transform: ${({show:e})=>e?"translateY(0%)":"translateY(-100%)"};
+  transition: transform 300ms ease-in-out;
+  text-align: center;
+`,m=(0,p.default)(s.qL).withConfig({displayName:"UnsupportedCurrencyFooter__StyledButtonEmpty",componentId:"sc-b083a83b-1"})`
+  text-decoration: none;
+`,j=(0,p.default)(g.Tv.DeprecatedBlue).withConfig({displayName:"UnsupportedCurrencyFooter__AddressText",componentId:"sc-b083a83b-2"})`
+  font-size: 12px;
+
+  ${({theme:e})=>e.deprecated_mediaWidth.deprecated_upToSmall`
+    font-size: 10px;
+`}
+`;function _({show:e,currencies:n}){const{chainId:i}=(0,d.useWeb3React)(),[s,p]=(0,u.useState)(!1),N=i&&n?n.map((e=>e?.wrapped)):[],_=(0,x.l6)();return(0,t.jsxs)(h,{show:e,children:[(0,t.jsx)(l.Z,{isOpen:s,onDismiss:()=>p(!1),children:(0,t.jsx)(c.ZP,{padding:"2rem",children:(0,t.jsxs)(o.Tz,{gap:"lg",children:[(0,t.jsxs)(C.m0,{children:[(0,t.jsx)(g.Tv.DeprecatedMediumHeader,{children:(0,t.jsx)(r.cC,{id:"7Osz32"})}),(0,t.jsx)(g.Tw,{onClick:()=>p(!1),"data-testid":"close-icon"})]}),N.map((e=>e&&_&&Object.keys(_).includes(e.address)&&(0,t.jsx)(c.nq,{"data-testid":"unsupported-token-card",children:(0,t.jsxs)(o.Tz,{gap:"10px",children:[(0,t.jsxs)(C.BA,{gap:"5px",align:"center",children:[(0,t.jsx)(a.Z,{currency:e,size:"24px"}),(0,t.jsx)(g.Tv.DeprecatedBody,{fontWeight:535,children:e.symbol})]}),i&&(0,t.jsx)(g.dL,{href:(0,R.E)(i,e.address,R.r.ADDRESS),children:(0,t.jsx)(j,{children:e.address})})]})},e.address?.concat("not-supported")))),(0,t.jsx)(o.Tz,{gap:"lg",children:(0,t.jsx)(g.Tv.DeprecatedBody,{fontWeight:535,children:(0,t.jsx)(r.cC,{id:"l7X7DE"})})})]})})}),(0,t.jsx)(m,{padding:"0",onClick:()=>p(!0),"data-testid":"read-more-button",children:(0,t.jsx)(g.Tv.DeprecatedBlue,{children:(0,t.jsx)(r.cC,{id:"bIjYSY"})})})]})}},1070:function(e,n,i){i.r(n),i.d(n,{default:function(){return oe}});var t=i(42893),r=i(80657),d=i(86003),s=i(12204),c=i(19903),o=i(15387),a=i(80815),l=i(66196),C=i(93622),u=i(71607),p=i(85729),g=i(22875),N=i(6053),x=i(13712),R=i(49287),h=i(47096),m=i(87253),j=i(39839),_=i(60198),f=i(42246),E=i(60476),y=i(63548),U=i(45533),Y=i(4987),b=i(16403),v=i(2304),T=i(36727),A=i(91101),B=i(58025),D=i(15627),w=i(48244),S=i(36665),I=i(92930),q=i(57282),k=i(97761),P=i(40740),L=i(44998),z=i.n(L),O=i(4572),$=i(63498),M=i(75712),W=i(42881);const F=z().BigInt(0);function V(){return(0,$.C)((e=>e.mint))}var Z=i(97905),G=i(843),H=i(64614),J=i(54479),Q=i(39515),X=i(21103),K=i(96700),ee=i(72714),ne=i(55494),ie=i(56823);function te({noLiquidity:e,price:n,currencies:i,parsedAmounts:r,poolTokenPercentage:d,onAdd:c}){return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsxs)(v.m0,{children:[(0,t.jsx)(j.Tv.DeprecatedBody,{children:(0,t.jsx)(s.cC,{id:"C7f3au",values:{0:i[P.gN.CURRENCY_A]?.symbol}})}),(0,t.jsxs)(v.DA,{children:[(0,t.jsx)(ie.Z,{currency:i[P.gN.CURRENCY_A],style:{marginRight:"8px"}}),(0,t.jsx)(j.Tv.DeprecatedBody,{children:r[P.gN.CURRENCY_A]?.toSignificant(6)})]})]}),(0,t.jsxs)(v.m0,{children:[(0,t.jsx)(j.Tv.DeprecatedBody,{children:(0,t.jsx)(s.cC,{id:"C7f3au",values:{0:i[P.gN.CURRENCY_B]?.symbol}})}),(0,t.jsxs)(v.DA,{children:[(0,t.jsx)(ie.Z,{currency:i[P.gN.CURRENCY_B],style:{marginRight:"8px"}}),(0,t.jsx)(j.Tv.DeprecatedBody,{children:r[P.gN.CURRENCY_B]?.toSignificant(6)})]})]}),(0,t.jsxs)(v.m0,{children:[(0,t.jsx)(j.Tv.DeprecatedBody,{children:(0,t.jsx)(s.cC,{id:"3XOwjg"})}),(0,t.jsx)(j.Tv.DeprecatedBody,{children:`1 ${i[P.gN.CURRENCY_A]?.symbol} = ${n?.toSignificant(4)} ${i[P.gN.CURRENCY_B]?.symbol}`})]}),(0,t.jsx)(v.m0,{style:{justifyContent:"flex-end"},children:(0,t.jsx)(j.Tv.DeprecatedBody,{children:`1 ${i[P.gN.CURRENCY_B]?.symbol} = ${n?.invert().toSignificant(4)} ${i[P.gN.CURRENCY_A]?.symbol}`})}),(0,t.jsxs)(v.m0,{children:[(0,t.jsx)(j.Tv.DeprecatedBody,{children:(0,t.jsx)(s.cC,{id:"6MJHcQ"})}),(0,t.jsx)(j.Tv.DeprecatedBody,{children:(0,t.jsx)(s.cC,{id:"hbO8db",values:{0:e?"100":d?.toSignificant(4)}})})]}),(0,t.jsx)(_.DF,{style:{margin:"20px 0 0 0"},onClick:c,children:(0,t.jsx)(h.xv,{fontWeight:535,fontSize:20,children:e?(0,t.jsx)(s.cC,{id:"ELJdCv"}):(0,t.jsx)(s.cC,{id:"xqNrBs"})})})]})}function re({currencies:e,noLiquidity:n,poolTokenPercentage:i,price:r}){const d=(0,m.useTheme)();let c;try{c=r?.invert()?.toSignificant(6)}catch(o){c=void 0}return(0,t.jsx)(E.Tz,{gap:"md",children:(0,t.jsxs)(v.BA,{justify:"space-around",gap:"4px",children:[(0,t.jsxs)(E.Tz,{justify:"center",children:[(0,t.jsx)(j.Tv.DeprecatedBlack,{"data-testid":"currency-b-price",children:r?.toSignificant(6)??"-"}),(0,t.jsx)(h.xv,{fontWeight:535,fontSize:14,color:d.neutral2,pt:1,children:(0,t.jsx)(s.cC,{id:"7Z4WfS",values:{0:e[P.gN.CURRENCY_B]?.symbol,1:e[P.gN.CURRENCY_A]?.symbol}})})]}),(0,t.jsxs)(E.Tz,{justify:"center",children:[(0,t.jsx)(j.Tv.DeprecatedBlack,{"data-testid":"currency-a-price",children:c??"-"}),(0,t.jsx)(h.xv,{fontWeight:535,fontSize:14,color:d.neutral2,pt:1,children:(0,t.jsx)(s.cC,{id:"7Z4WfS",values:{0:e[P.gN.CURRENCY_A]?.symbol,1:e[P.gN.CURRENCY_B]?.symbol}})})]}),(0,t.jsxs)(E.Tz,{justify:"center",children:[(0,t.jsxs)(j.Tv.DeprecatedBlack,{children:[n&&r?"100":(i?.lessThan(A.IS)?"<0.01":i?.toFixed(2))??"0","%"]}),(0,t.jsx)(h.xv,{fontWeight:535,fontSize:14,color:d.neutral2,pt:1,children:(0,t.jsx)(s.cC,{id:"SbBMxj"})})]})]})})}const de=new o.Percent(50,1e4),se=(0,m.default)(E.Tz).withConfig({displayName:"AddLiquidityV2__AddLiquidityHeaderContainer",componentId:"sc-1e323c45-0"})`
+  gap: 20px;
+  margin-bottom: 16px;
+`;function ce(){const{currencyIdA:e,currencyIdB:n}=(0,r.UO)(),i=(0,r.s0)(),{account:L,chainId:ie,provider:ce}=(0,a.useWeb3React)(),oe=(0,m.useTheme)(),ae=(0,l.oO)(),le=(0,D.U8)(e),Ce=(0,D.U8)(n),ue=ie?B.Fl[ie]:void 0,pe=Boolean(ie&&ue&&(le&&le.equals(ue)||Ce&&Ce.equals(ue))),ge=(0,C.LK)(),{independentField:Ne,typedValue:xe,otherTypedValue:Re}=V(),{dependentField:he,currencies:me,pair:je,pairState:_e,currencyBalances:fe,parsedAmounts:Ee,price:ye,noLiquidity:Ue,liquidityMinted:Ye,poolTokenPercentage:be,error:ve}=function(e,n){const{account:i}=(0,a.useWeb3React)(),{independentField:r,typedValue:d,otherTypedValue:c}=V(),l=r===P.gN.CURRENCY_A?P.gN.CURRENCY_B:P.gN.CURRENCY_A,C=(0,x.useMemo)((()=>({[P.gN.CURRENCY_A]:e??void 0,[P.gN.CURRENCY_B]:n??void 0})),[e,n]),[u,p]=(0,k.Oo)(C[P.gN.CURRENCY_A],C[P.gN.CURRENCY_B]),g=(0,M.A)(p?.liquidityToken),N=u===k._G.NOT_EXISTS||Boolean(g&&z().equal(g.quotient,F))||Boolean(u===k._G.EXISTS&&p&&z().equal(p.reserve0.quotient,F)&&z().equal(p.reserve1.quotient,F)),R=(0,W.K5)(i??void 0,(0,x.useMemo)((()=>[C[P.gN.CURRENCY_A],C[P.gN.CURRENCY_B]]),[C])),h={[P.gN.CURRENCY_A]:R[0],[P.gN.CURRENCY_B]:R[1]},m=(0,O.Z)(d,C[r]),j=(0,x.useMemo)((()=>{if(N)return c&&C[l]?(0,O.Z)(c,C[l]):void 0;if(m){const i=m?.wrapped,[t,r]=[e?.wrapped,n?.wrapped];if(t&&r&&i&&p){const d=l===P.gN.CURRENCY_B?n:e,s=l===P.gN.CURRENCY_B?p.priceOf(t).quote(i):p.priceOf(r).quote(i);return d?.isNative?o.CurrencyAmount.fromRawAmount(d,s.quotient):s}}}),[N,c,C,l,m,e,n,p]),_=(0,x.useMemo)((()=>({[P.gN.CURRENCY_A]:r===P.gN.CURRENCY_A?m:j,[P.gN.CURRENCY_B]:r===P.gN.CURRENCY_A?j:m})),[j,m,r]),f=(0,x.useMemo)((()=>{if(!N){const n=e?.wrapped;return p&&n?p.priceOf(n):void 0}{const{[P.gN.CURRENCY_A]:e,[P.gN.CURRENCY_B]:n}=_;if(e?.greaterThan(0)&&n?.greaterThan(0)){const i=n.divide(e);return new o.Price(e.currency,n.currency,i.denominator,i.numerator)}}}),[e,N,p,_]),E=(0,x.useMemo)((()=>{const{[P.gN.CURRENCY_A]:e,[P.gN.CURRENCY_B]:n}=_,[i,t]=[e?.wrapped,n?.wrapped];if(p&&g&&i&&t)try{return p.getLiquidityMinted(g,i,t)}catch(U){return void console.error(U)}}),[_,p,g]),y=(0,x.useMemo)((()=>E&&g?new o.Percent(E.quotient,g.add(E).quotient):void 0),[E,g]);let U;i||(U=(0,t.jsx)(s.cC,{id:"VHOVEJ"})),u===k._G.INVALID&&(U=U??(0,t.jsx)(s.cC,{id:"R7D79P"})),_[P.gN.CURRENCY_A]&&_[P.gN.CURRENCY_B]||(U=U??(0,t.jsx)(s.cC,{id:"iPMIoT"}));const{[P.gN.CURRENCY_A]:Y,[P.gN.CURRENCY_B]:b}=_;return Y&&h?.[P.gN.CURRENCY_A]?.lessThan(Y)&&(U=(0,t.jsx)(s.cC,{id:"m6RmA/",values:{0:C[P.gN.CURRENCY_A]?.symbol}})),b&&h?.[P.gN.CURRENCY_B]?.lessThan(b)&&(U=(0,t.jsx)(s.cC,{id:"m6RmA/",values:{0:C[P.gN.CURRENCY_B]?.symbol}})),{dependentField:l,currencies:C,pair:p,pairState:u,currencyBalances:h,parsedAmounts:_,price:f,noLiquidity:N,liquidityMinted:E,poolTokenPercentage:y,error:U}}(le??void 0,Ce??void 0),{onFieldAInput:Te,onFieldBInput:Ae}=function(e){const n=(0,$.T)();return{onFieldAInput:(0,x.useCallback)((i=>{n((0,P.LC)({field:P.gN.CURRENCY_A,typedValue:i,noLiquidity:!0===e}))}),[n,e]),onFieldBInput:(0,x.useCallback)((i=>{n((0,P.LC)({field:P.gN.CURRENCY_B,typedValue:i,noLiquidity:!0===e}))}),[n,e])}}(Ue),Be=!ve,[De,we]=(0,x.useState)(!1),[Se,Ie]=(0,x.useState)(!1),qe=(0,q.Z)(),ke=(0,H.eq)(de),[Pe,Le]=(0,x.useState)(""),ze={[Ne]:xe,[he]:Ue?Re:Ee[he]?.toSignificant(6)??""},Oe=[P.gN.CURRENCY_A,P.gN.CURRENCY_B].reduce(((e,n)=>({...e,[n]:(0,K.i)(fe[n])})),{}),$e=[P.gN.CURRENCY_A,P.gN.CURRENCY_B].reduce(((e,n)=>({...e,[n]:Oe[n]?.equalTo(Ee[n]??"0")})),{}),Me=(0,S.XF)(),[We,Fe]=(0,w.q)(Ee[P.gN.CURRENCY_A],Me?.address),[Ve,Ze]=(0,w.q)(Ee[P.gN.CURRENCY_B],Me?.address),Ge=(0,Z.h7)(),He=(0,N.G)();async function Je(){if(!ie||!ce||!L||!Me||!He)return;const{[P.gN.CURRENCY_A]:e,[P.gN.CURRENCY_B]:n}=Ee;if(!e||!n||!le||!Ce||!qe)return;const i={[P.gN.CURRENCY_A]:(0,Q.u)(e,Ue?A.fI:ke)[0],[P.gN.CURRENCY_B]:(0,Q.u)(n,Ue?A.fI:ke)[0]};let t,r,s,o;if(le.isNative||Ce.isNative){const c=Ce.isNative;t=Me.estimateGas.addLiquidityETH,r=Me.addLiquidityETH,s=[(c?le:Ce)?.wrapped?.address??"",(c?e:n).quotient.toString(),i[c?P.gN.CURRENCY_A:P.gN.CURRENCY_B].toString(),i[c?P.gN.CURRENCY_B:P.gN.CURRENCY_A].toString(),L,qe.toHexString()],o=d.O$.from((c?n:e).quotient.toString())}else t=Me.estimateGas.addLiquidity,r=Me.addLiquidity,s=[le?.wrapped?.address??"",Ce?.wrapped?.address??"",e.quotient.toString(),n.quotient.toString(),i[P.gN.CURRENCY_A].toString(),i[P.gN.CURRENCY_B].toString(),L,qe.toHexString()],o=null;Ie(!0),await t(...s,o?{value:o}:{}).then((e=>r(...s,{...o?{value:o}:{},gasLimit:(0,J.y)(e)}).then((e=>{Ie(!1);const n={type:G.i.ADD_LIQUIDITY_V2_POOL,baseCurrencyId:(0,X.H)(le),expectedAmountBaseRaw:Ee[P.gN.CURRENCY_A]?.quotient.toString()??"0",quoteCurrencyId:(0,X.H)(Ce),expectedAmountQuoteRaw:Ee[P.gN.CURRENCY_B]?.quotient.toString()??"0"};Ge(e,n),Le(e.hash),(0,l._P)(c.vp.ADD_LIQUIDITY_SUBMITTED,{label:[me[P.gN.CURRENCY_A]?.symbol,me[P.gN.CURRENCY_B]?.symbol].join("/"),...ae,...n})})))).catch((e=>{Ie(!1),4001!==e?.code&&console.error(e)}))}const Qe=()=>(0,t.jsx)(se,{children:Ue?(0,t.jsx)(f.hl,{mt:"20px",$borderRadius:"20px",children:(0,t.jsxs)(v.BA,{justify:"space-between",children:[(0,t.jsx)(h.xv,{fontSize:"24px",fontWeight:535,lineHeight:"42px",marginRight:10,children:me[P.gN.CURRENCY_A]?.symbol+"/"+me[P.gN.CURRENCY_B]?.symbol}),(0,t.jsx)(U.Z,{currency0:me[P.gN.CURRENCY_A],currency1:me[P.gN.CURRENCY_B],size:30})]})}):(0,t.jsxs)(t.Fragment,{children:[(0,t.jsxs)(v.v3,{style:{marginTop:"20px"},children:[(0,t.jsx)(h.xv,{fontSize:"48px",fontWeight:535,lineHeight:"42px",marginRight:10,children:Ye?.toSignificant(6)}),(0,t.jsx)(U.Z,{currency0:me[P.gN.CURRENCY_A],currency1:me[P.gN.CURRENCY_B],size:30})]}),(0,t.jsx)(v.ZP,{children:(0,t.jsx)(h.xv,{fontSize:"24px",children:me[P.gN.CURRENCY_A]?.symbol+"/"+me[P.gN.CURRENCY_B]?.symbol+" Pool Tokens"})}),(0,t.jsx)(j.Tv.DeprecatedItalic,{fontSize:12,textAlign:"left",padding:"8px 0 0 0 ",children:(0,t.jsx)(s.cC,{id:"4nBvG6",values:{0:ke.toSignificant(4)}})})]})}),Xe=()=>(0,t.jsx)(te,{price:ye,currencies:me,parsedAmounts:Ee,noLiquidity:Ue,onAdd:Je,poolTokenPercentage:be}),Ke=(0,t.jsx)(s.cC,{id:"+U2TkE",values:{0:Ee[P.gN.CURRENCY_A]?.toSignificant(6),1:me[P.gN.CURRENCY_A]?.symbol,2:Ee[P.gN.CURRENCY_B]?.toSignificant(6),3:me[P.gN.CURRENCY_B]?.symbol}}),en=(0,x.useCallback)((t=>{const r=(0,X.H)(t);i(r===n?`/add/v2/${n}/${e}`:`/add/v2/${r}/${n}`)}),[n,i,e]),nn=(0,x.useCallback)((t=>{const r=(0,X.H)(t);i(e===r?n?`/add/v2/${n}/${r}`:`/add/v2/${r}`:`/add/v2/${e||"ETH"}/${r}`)}),[e,i,n]),tn=(0,x.useCallback)((()=>{we(!1),Pe&&Te(""),Le("")}),[Te,Pe]),{pathname:rn}=(0,r.TH)(),dn=rn.includes("/create"),sn=(0,I.G)(me?.CURRENCY_A,me?.CURRENCY_B);return He?(0,t.jsxs)(t.Fragment,{children:[(0,t.jsxs)(ee.Z,{children:[(0,t.jsx)(Y.w,{creating:dn,adding:!0,autoSlippage:de}),(0,t.jsxs)(ne.im,{children:[(0,t.jsx)(T.Z,{isOpen:De,onDismiss:tn,attemptingTxn:Se,hash:Pe,reviewContent:()=>(0,t.jsx)(T.p,{title:Ue?(0,t.jsx)(s.cC,{id:"aM1tos"}):(0,t.jsx)(s.cC,{id:"AeZIvT"}),onDismiss:tn,topContent:Qe,bottomContent:Xe}),pendingText:Ke,currencyToAdd:je?.liquidityToken}),(0,t.jsxs)(E.Tz,{gap:"20px",children:[Ue||(dn?(0,t.jsx)(E.lg,{children:(0,t.jsx)(f.Pj,{children:(0,t.jsxs)(E.Tz,{gap:"10px",children:[(0,t.jsx)(j.Tv.DeprecatedLink,{fontWeight:535,color:"accent1",children:(0,t.jsx)(s.cC,{id:"thdBpY"})}),(0,t.jsx)(j.Tv.DeprecatedLink,{fontWeight:485,color:"accent1",children:(0,t.jsx)(s.cC,{id:"TscS1q"})}),(0,t.jsx)(j.Tv.DeprecatedLink,{fontWeight:485,color:"accent1",children:(0,t.jsx)(s.cC,{id:"UEmvHF"})})]})})}):(0,t.jsx)(E.lg,{children:(0,t.jsx)(f.Pj,{children:(0,t.jsx)(E.Tz,{gap:"10px",children:(0,t.jsxs)(j.Tv.DeprecatedLink,{fontWeight:485,color:"accent1",children:[(0,t.jsx)("b",{children:(0,t.jsx)(s.cC,{id:"0l56BI"})})," ",(0,t.jsx)(s.cC,{id:"NqgbmN"})]})})})})),(0,t.jsx)(y.Z,{value:ze[P.gN.CURRENCY_A],onUserInput:Te,onMax:()=>{Te(Oe[P.gN.CURRENCY_A]?.toExact()??"")},onCurrencySelect:en,showMaxButton:!$e[P.gN.CURRENCY_A],currency:me[P.gN.CURRENCY_A]??null,id:"add-liquidity-input-tokena",showCommonBases:!0}),(0,t.jsx)(E.lg,{children:(0,t.jsx)(R.Z,{size:"16",color:oe.neutral2})}),(0,t.jsx)(y.Z,{value:ze[P.gN.CURRENCY_B],onUserInput:Ae,onCurrencySelect:nn,onMax:()=>{Ae(Oe[P.gN.CURRENCY_B]?.toExact()??"")},showMaxButton:!$e[P.gN.CURRENCY_B],currency:me[P.gN.CURRENCY_B]??null,id:"add-liquidity-input-tokenb",showCommonBases:!0}),me[P.gN.CURRENCY_A]&&me[P.gN.CURRENCY_B]&&_e!==k._G.INVALID&&(0,t.jsx)(t.Fragment,{children:(0,t.jsxs)(f.hl,{padding:"0px",$borderRadius:"20px",children:[(0,t.jsx)(v.m0,{padding:"1rem",children:(0,t.jsx)(j.Tv.DeprecatedSubHeader,{fontWeight:535,fontSize:14,children:Ue?(0,t.jsx)(s.cC,{id:"D52j9u"}):(0,t.jsx)(s.cC,{id:"vmTbpu"})})})," ",(0,t.jsx)(f.hl,{padding:"1rem",$borderRadius:"20px",children:(0,t.jsx)(re,{currencies:me,poolTokenPercentage:be,noLiquidity:Ue,price:ye})})]})}),sn?(0,t.jsx)(_.DF,{disabled:!0,children:(0,t.jsx)(j.Tv.DeprecatedMain,{mb:"4px",children:(0,t.jsx)(s.cC,{id:"Z941Tw"})})}):L?(0,t.jsxs)(E.Tz,{gap:"md",children:[(We===w.U.NOT_APPROVED||We===w.U.PENDING||Ve===w.U.NOT_APPROVED||Ve===w.U.PENDING)&&Be&&(0,t.jsxs)(v.m0,{children:[We!==w.U.APPROVED&&(0,t.jsx)(_.DF,{onClick:Fe,disabled:We===w.U.PENDING,width:Ve!==w.U.APPROVED?"48%":"100%",children:We===w.U.PENDING?(0,t.jsx)(ne.bb,{children:(0,t.jsx)(s.cC,{id:"MfyhMG",values:{0:me[P.gN.CURRENCY_A]?.symbol}})}):(0,t.jsx)(s.cC,{id:"fgGids",values:{0:me[P.gN.CURRENCY_A]?.symbol}})}),Ve!==w.U.APPROVED&&(0,t.jsx)(_.DF,{onClick:Ze,disabled:Ve===w.U.PENDING,width:We!==w.U.APPROVED?"48%":"100%",children:Ve===w.U.PENDING?(0,t.jsx)(ne.bb,{children:(0,t.jsx)(s.cC,{id:"MfyhMG",values:{0:me[P.gN.CURRENCY_B]?.symbol}})}):(0,t.jsx)(s.cC,{id:"fgGids",values:{0:me[P.gN.CURRENCY_B]?.symbol}})})]}),(0,t.jsx)(_.Kd,{onClick:()=>{we(!0)},disabled:!Be||We!==w.U.APPROVED||Ve!==w.U.APPROVED,error:!Be&&!!Ee[P.gN.CURRENCY_A]&&!!Ee[P.gN.CURRENCY_B],children:(0,t.jsx)(h.xv,{fontSize:20,fontWeight:535,children:ve??(0,t.jsx)(s.cC,{id:"bwSQI0"})})})]}):(0,t.jsx)(l.M8,{events:[c.TM.onClick],name:c.Je.CONNECT_WALLET_BUTTON_CLICKED,properties:{received_swap_quote:!1},element:c.xo.CONNECT_WALLET_BUTTON,children:(0,t.jsx)(_.Sy,{onClick:ge,children:(0,t.jsx)(s.cC,{id:"VHOVEJ"})})})]})]})]}),(0,t.jsx)(p.c,{}),sn?(0,t.jsx)(u.Z,{show:sn,currencies:[me.CURRENCY_A,me.CURRENCY_B]}):je&&!Ue&&_e!==k._G.INVALID?(0,t.jsx)(E.Tz,{style:{minWidth:"20rem",width:"100%",maxWidth:"400px",marginTop:"1rem"},children:(0,t.jsx)(b.WP,{showUnwrapped:pe,pair:je})}):null]}):(0,t.jsx)(g.A,{})}function oe(){const{currencyIdA:e,currencyIdB:n}=(0,r.UO)();return e&&n&&e.toLowerCase()===n.toLowerCase()?(0,t.jsx)(r.Fg,{to:`/add/v2/${e}`,replace:!0}):(0,t.jsx)(ce,{})}},55494:function(e,n,i){i.d(n,{DC:function(){return c},ER:function(){return o},bb:function(){return a},im:function(){return s},pr:function(){return l}});var t=i(13119),r=i(47096),d=i(87253);const s=d.default.div.withConfig({displayName:"styled__Wrapper",componentId:"sc-bfb6c8b8-0"})`
+  position: relative;
+  padding: 20px;
+`,c=(0,d.default)(r.xv).withConfig({displayName:"styled__ClickableText",componentId:"sc-bfb6c8b8-1"})`
+  :hover {
+    cursor: pointer;
+  }
+  color: ${({theme:e})=>e.accent1};
+`,o=d.default.button.withConfig({displayName:"styled__MaxButton",componentId:"sc-bfb6c8b8-2"})`
+  padding: 0.5rem 1rem;
+  background-color: ${({theme:e})=>e.accent2};
+  border: 1px solid ${({theme:e})=>e.accent2};
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  ${({theme:e})=>e.deprecated_mediaWidth.deprecated_upToSmall`
+    padding: 0.25rem 0.5rem;
+  `};
+  font-weight: 535;
+  cursor: pointer;
+  margin: 0.25rem;
+  overflow: hidden;
+  color: ${({theme:e})=>e.accent1};
+  :hover {
+    border: 1px solid ${({theme:e})=>e.accent1};
+  }
+  :focus {
+    border: 1px solid ${({theme:e})=>e.accent1};
+    outline: none;
+  }
+`,a=d.default.span.withConfig({displayName:"styled__Dots",componentId:"sc-bfb6c8b8-3"})`
+  &::after {
+    display: inline-block;
+    animation: ellipsis 1.25s infinite;
+    content: '.';
+    width: 1em;
+    text-align: left;
+  }
+  @keyframes ellipsis {
+    0% {
+      content: '.';
+    }
+    33% {
+      content: '..';
+    }
+    66% {
+      content: '...';
+    }
+  }
+`,l=(0,d.default)(t.pr).withConfig({displayName:"styled__LoadingRows",componentId:"sc-bfb6c8b8-4"})`
+  padding-top: 36px;
+  min-width: 75%;
+  max-width: 960px;
+  grid-column-gap: 0.5em;
+  grid-row-gap: 0.8em;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 8px;
+
+  & > div:nth-child(4n + 1) {
+    grid-column: 1 / 3;
+  }
+  & > div:nth-child(4n) {
+    grid-column: 3 / 4;
+    margin-bottom: 2em;
+  }
+`}}]);
+//# sourceMappingURL=1070.dcf12187.chunk.js.map
